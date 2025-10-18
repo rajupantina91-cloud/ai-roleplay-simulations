@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scenario Builder</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h2>Create Your Custom Scenario</h2>
+  <form id="builder-form">
+    <label>Segment:</label>
+    <select id="segment">
+      <option>Sales</option>
+      <option>Customer Support</option>
+      <option>Contact Center</option>
+    </select><br>
+    <label>Scenario Name:</label>
+    <input type="text" id="name"><br>
+    <label>Description:</label>
+    <textarea id="description"></textarea><br>
+    <label>AI Personality:</label>
+    <input type="text" id="personality"><br>
+    <button type="button" onclick="saveScenario()">Save Scenario</button>
+  </form>
+</body>
+</html>
