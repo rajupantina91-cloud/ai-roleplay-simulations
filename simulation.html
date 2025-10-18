@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<header>
+  <h2 id="scenario-title">Loading Scenario...</h2>
+  <div id="timer">5:00</div>
+</header>
+<div id="chat-window"></div>
+<div id="user-input">
+  <input type="text" id="message" placeholder="Type your message..." autocomplete="off"/>
+  <button onclick="sendMessage()">Send</button>
+</div>
+<footer>
+  <button onclick="endSimulation()">End Simulation</button>
+</footer>
+</body>
+</html>
